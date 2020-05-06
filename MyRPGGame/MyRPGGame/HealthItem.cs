@@ -1,0 +1,4 @@
+﻿namespace MyRPGGame
+{
+    public class 
+}
