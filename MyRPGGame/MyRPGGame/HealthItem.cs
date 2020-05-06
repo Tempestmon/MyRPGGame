@@ -1,4 +1,8 @@
 ﻿namespace MyRPGGame
 {
-    public class 
+    public class HealthItem : Item
+    {
+        public int HealthRestore { get; set; }
+        public int RequiredMovePoint { get; set; }
+    }
 }

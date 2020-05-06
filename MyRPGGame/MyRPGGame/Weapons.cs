@@ -1,12 +1,11 @@
-﻿using static MyRPGGame.GameModel;
-
-namespace MyRPGGame
+﻿namespace MyRPGGame
 {
     public class Fist : Weapon
     {
         public Fist()
         {
-            Damage = 24;
+            Name = "Fist";
+            Damage = 5;
             Range = 1;
             Capacity = 1000;
             WeaponRequirement = new WeaponRequirement(Tier.Strength, 2);
@@ -18,6 +17,7 @@ namespace MyRPGGame
     {
         public Hammer()
         {
+            Name = "Hammer";
             Damage = 24;
             Range = 1;
             Capacity = 30;
@@ -30,6 +30,7 @@ namespace MyRPGGame
     {
         public Knife()
         {
+            Name = "Knife";
             Damage = 10;
             Range = 1;
             Capacity = 20;
@@ -42,6 +43,7 @@ namespace MyRPGGame
     {
         public SuperFist()
         {
+            Name = "Super fist";
             Damage = 18;
             Range = 1;
             Capacity = 4;
@@ -54,6 +56,7 @@ namespace MyRPGGame
     {
         public SawedOff()
         {
+            Name = "Sawed-off";
             Damage = 50;
             Range = 3;
             Capacity = 5;
@@ -66,6 +69,7 @@ namespace MyRPGGame
     {
         public Revolver()
         {
+            Name = "Revolver";
             Damage = 30;
             Range = 5;
             Capacity = 6;
@@ -78,6 +82,7 @@ namespace MyRPGGame
     {
         public PlasmaHandGun()
         {
+            Name = "Plasma handgun";
             Damage = 40;
             Range = 4;
             Capacity = 12;
@@ -90,6 +95,7 @@ namespace MyRPGGame
     {
         public Minigun()
         {
+            Name = "Minigun";
             Damage = 100;
             Range = 8;
             Capacity = 2;
@@ -102,6 +108,7 @@ namespace MyRPGGame
     {
         public Rifle()
         {
+            Name = "Rifle";
             Damage = 60;
             Range = 10;
             Capacity = 15;
@@ -114,6 +121,7 @@ namespace MyRPGGame
     {
         public PlasmaRifle()
         {
+            Name = "Plasma rifle";
             Damage = 70;
             Range = 6;
             Capacity = 8;

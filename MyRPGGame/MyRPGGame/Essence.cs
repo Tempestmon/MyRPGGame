@@ -2,6 +2,8 @@
 {
     public enum Essence
     {
-        
+        Character,
+        Terrain,
+        Entrance
     }
 }

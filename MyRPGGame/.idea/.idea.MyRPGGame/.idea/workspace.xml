@@ -1,32 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba8c98a4-06d9-4655-a571-0fc770537989" name="Default Changelist" comment="" />
+    <list default="true" id="ba8c98a4-06d9-4655-a571-0fc770537989" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyRPGGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyRPGGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyRPGGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyRPGGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/Essence.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/Essence.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/GameModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/GameModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/HealthItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/HealthItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/HealthItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/HealthItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/Stats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/Stats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/Tests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/Tier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/Tier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/WeaponRequirement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/WeaponRequirement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/Weapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/Weapons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/World.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/World.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/bin/Debug/netcoreapp3.0/MyRPGGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/bin/Debug/netcoreapp3.0/MyRPGGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/bin/Debug/netcoreapp3.0/MyRPGGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/bin/Debug/netcoreapp3.0/MyRPGGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/obj/Debug/netcoreapp3.0/MyRPGGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/obj/Debug/netcoreapp3.0/MyRPGGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRPGGame/obj/Debug/netcoreapp3.0/MyRPGGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyRPGGame/obj/Debug/netcoreapp3.0/MyRPGGame.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/Essence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/HealthItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/GameModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/Stats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/SimpleWorkItemDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/Tier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/CompositeWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/WeaponRequirement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/WorkItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyRPGGame/Weapons.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyRPGGame/GameModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyRPGGame/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/HealthItems.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyRPGGame/Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyRPGGame/World.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MyRPGGame/Program.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/Item.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/Weapon.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/WeaponRequirement.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/Tier.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/Essence.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/World.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/Items.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/HealthItem.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/HealthItems.cs" />
         <option value="$PROJECT_DIR$/MyRPGGame/Weapons.cs" />
         <option value="$PROJECT_DIR$/MyRPGGame/Tests.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/Character.cs" />
+        <option value="$PROJECT_DIR$/MyRPGGame/Stats.cs" />
         <option value="$PROJECT_DIR$/MyRPGGame/GameModel.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1bOe8dzG2vHzRrWeAo78MLygmxt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +80,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -85,7 +132,10 @@
       <option name="presentableId" value="Default" />
       <updated>1588507408129</updated>
       <workItem from="1588507409435" duration="1783000" />
-      <workItem from="1588674403020" duration="30702000" />
+      <workItem from="1588674403020" duration="31159000" />
+      <workItem from="1588737329137" duration="18584000" />
+      <workItem from="1588772079307" duration="867000" />
+      <workItem from="1588785631708" duration="2689000" />
     </task>
     <servers />
   </component>
@@ -94,94 +144,111 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1588705161493">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1588788320469">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161493" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1588705161493">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320469" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1588788320468">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161493" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1588705161493">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320468" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1588788320468">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161493" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1588705161493">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320468" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1588788320468">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161493" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1588705161494">
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320468" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1588788320469">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161494" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1588705161493">
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320469" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1588788320469">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161493" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1588705161493">
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320469" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1588788320469">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161493" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1588705161493">
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320469" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1588788320469">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161493" />
-    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1588705161494">
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320469" />
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1588788320471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161494" />
-    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1588705161494">
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320471" />
+    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1588788320471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161494" />
-    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1588705161494">
+    <state width="1877" height="352" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320471" />
+    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1588788320471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161494" />
-    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1588705161494">
+    <state width="1877" height="352" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320471" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1588788320471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161494" />
-    <state width="1877" height="352" key="GridCell.Tab.3.bottom" timestamp="1588705161495">
+    <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320471" />
+    <state width="1877" height="352" key="GridCell.Tab.3.bottom" timestamp="1588788320472">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161495" />
-    <state width="1877" height="352" key="GridCell.Tab.3.center" timestamp="1588705161494">
+    <state width="1877" height="352" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320472" />
+    <state width="1877" height="352" key="GridCell.Tab.3.center" timestamp="1588788320472">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161494" />
-    <state width="1877" height="352" key="GridCell.Tab.3.left" timestamp="1588705161494">
+    <state width="1877" height="352" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320472" />
+    <state width="1877" height="352" key="GridCell.Tab.3.left" timestamp="1588788320471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161494" />
-    <state width="1877" height="352" key="GridCell.Tab.3.right" timestamp="1588705161494">
+    <state width="1877" height="352" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320471" />
+    <state width="1877" height="352" key="GridCell.Tab.3.right" timestamp="1588788320472">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161494" />
-    <state width="1877" height="352" key="GridCell.Tab.4.bottom" timestamp="1588705161495">
+    <state width="1877" height="352" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320472" />
+    <state width="1877" height="352" key="GridCell.Tab.4.bottom" timestamp="1588788320473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161495" />
-    <state width="1877" height="352" key="GridCell.Tab.4.center" timestamp="1588705161495">
+    <state width="1877" height="352" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320473" />
+    <state width="1877" height="352" key="GridCell.Tab.4.center" timestamp="1588788320472">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161495" />
-    <state width="1877" height="352" key="GridCell.Tab.4.left" timestamp="1588705161495">
+    <state width="1877" height="352" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320472" />
+    <state width="1877" height="352" key="GridCell.Tab.4.left" timestamp="1588788320472">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161495" />
-    <state width="1877" height="352" key="GridCell.Tab.4.right" timestamp="1588705161495">
+    <state width="1877" height="352" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320472" />
+    <state width="1877" height="352" key="GridCell.Tab.4.right" timestamp="1588788320473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588705161495" />
+    <state width="1877" height="352" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588788320473" />
     <state x="552" y="258" key="Rider.ProjectTemplateDialog.Size" timestamp="1588507408378">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="258" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1588507408378" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588704625902">
+    <state x="769" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588787740999">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1588704625902" />
+    <state x="769" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588787740999" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588737523685">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1588737523685" />
   </component>
 </project>
