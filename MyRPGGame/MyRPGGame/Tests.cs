@@ -335,5 +335,20 @@ namespace MyRPGGame
             player.LevelUp(Tier.Agility);
             Assert.AreEqual(2, player.Statistics.Level);
         }
+
+        [Test]
+        public void EnterNewWorld()
+        {
+            var first = new World(11, 11);
+            var second = new World(5, 5);
+            var firstEntrance = new Entrance(new Point(10,10), first, second);
+            var secondEntrance = new Entrance(new Point(3,0), second, first);
+            first.SetEntrance(firstEntrance);
+            second.SetEntrance(secondEntrance);
+            var player = new Character(new Stats(10, 50, 10), first, true)
+                {Position = new Point(0, 0)};
+            player.Move(new Point(10, 10));
+            Assert.AreEqual(player.CurrentWorld, second);
+        }
     }
 }

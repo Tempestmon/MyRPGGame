@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
+using System.Drawing;
 
 namespace MyRPGGame
 {
     public class World
     {
         public bool IsFighting { get; set; }
-        public Stack<Character> Active { get; set; }
+        public List<Character> Characters { get; set; }
         public Essence[,] Map;
+        public List<Entrance> Entrances { get; set; }
 
         public World(int width, int height)
         {
@@ -14,8 +16,14 @@ namespace MyRPGGame
             for (var i = 0; i < width; i++)
             for (var j = 0; j < height; j++)
                 Map[i, j] = Essence.Terrain;
-            Active = new Stack<Character>();
+            Characters = new List<Character>();
             IsFighting = false;
+        }
+
+        public void SetEntrance(Entrance entrance)
+        {
+            Entrances.Add(entrance);
+            Map[entrance.Position.X, entrance.Position.Y] = Essence.Entrance;
         }
     }
 }

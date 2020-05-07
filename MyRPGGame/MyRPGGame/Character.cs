@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 
+//Добавить фракции врагов и игрока, связь с врагами и союзниками
 namespace MyRPGGame
 {
         public class Character
@@ -14,7 +16,7 @@ namespace MyRPGGame
             public Weapon CurrentWeapon { get; private set; }
             private bool IsCurrent { get; set; }
             private bool IsPlayer { get; set; }
-            private World CurrentWorld { get; set; }
+            public World CurrentWorld { get; set; }
             public List<Character> Enemies { get; set; }
 
             public Character(Stats stats, World world, bool isPlayer)
@@ -29,7 +31,7 @@ namespace MyRPGGame
                 CurrentWeapon.CurrentCapacity = CurrentWeapon.Capacity;
                 CurrentWorld = world;
                 CurrentWorld.Map[Position.X, Position.Y] = Essence.Character;
-                CurrentWorld.Active.Push(this);
+                CurrentWorld.Characters.Add(this);
             }
 
             public Character(Stats stats, World world)
@@ -44,7 +46,7 @@ namespace MyRPGGame
                 CurrentWeapon.CurrentCapacity = CurrentWeapon.Capacity;
                 CurrentWorld = world;
                 CurrentWorld.Map[Position.X, Position.Y] = Essence.Character;
-                CurrentWorld.Active.Push(this);
+                CurrentWorld.Characters.Add(this);
             }
             
             public void Reload()
@@ -134,7 +136,16 @@ namespace MyRPGGame
             {
                 IsCurrent = false;
                 CurrentMovePoints = Statistics.MovePoints;
-                CurrentWorld.Active.Pop();
+                CurrentWorld.Characters.Add(this);
+            }
+
+            public void CheckEntrance(Point target)
+            {
+                foreach (var entrance in CurrentWorld.Entrances.Where(entrance => entrance.Position == target && target == Position))
+                {
+                    CurrentWorld = entrance.EnterWorld;
+                    Position = entrance.Position;
+                }
             }
 
             public void Move(Point target)
@@ -171,5 +182,4 @@ namespace MyRPGGame
                 }
             }
         }
-
 }
