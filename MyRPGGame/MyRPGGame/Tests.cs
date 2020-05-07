@@ -341,14 +341,29 @@ namespace MyRPGGame
         {
             var first = new World(11, 11);
             var second = new World(5, 5);
-            var firstEntrance = new Entrance(new Point(10,10), first, second);
+            var firstEntrance = new Entrance(new Point(0,1), first, second);
             var secondEntrance = new Entrance(new Point(3,0), second, first);
             first.SetEntrance(firstEntrance);
             second.SetEntrance(secondEntrance);
             var player = new Character(new Stats(10, 50, 10), first, true)
                 {Position = new Point(0, 0)};
-            player.Move(new Point(10, 10));
-            Assert.AreEqual(player.CurrentWorld, second);
+            player.Move(new Point(0, 1));
+            Assert.AreEqual(second, player.CurrentWorld);
+        }
+        
+        [Test]
+        public void EnterNewWorldRightCoordinates()
+        {
+            var first = new World(11, 11);
+            var second = new World(5, 5);
+            var firstEntrance = new Entrance(new Point(0,1), first, second);
+            var secondEntrance = new Entrance(new Point(3,0), second, first);
+            first.SetEntrance(firstEntrance);
+            second.SetEntrance(secondEntrance);
+            var player = new Character(new Stats(10, 50, 10), first, true)
+                {Position = new Point(0, 0)};
+            player.Move(new Point(0, 1));
+            Assert.AreEqual(new Point(3,0), player.Position);
         }
     }
 }

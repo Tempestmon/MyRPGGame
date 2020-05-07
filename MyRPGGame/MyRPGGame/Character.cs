@@ -139,13 +139,17 @@ namespace MyRPGGame
                 CurrentWorld.Characters.Add(this);
             }
 
-            public void CheckEntrance(Point target)
+            public bool CheckEntrance(Point target)
             {
                 foreach (var entrance in CurrentWorld.Entrances.Where(entrance => entrance.Position == target && target == Position))
                 {
+                    foreach (var e in entrance.EnterWorld.Entrances.Where(e => e.EnterWorld == CurrentWorld))
+                        Position = e.Position;
                     CurrentWorld = entrance.EnterWorld;
-                    Position = entrance.Position;
+                    return true;
                 }
+
+                return false;
             }
 
             public void Move(Point target)
@@ -153,6 +157,8 @@ namespace MyRPGGame
                 if (CurrentWorld.Map[target.X, target.Y] != Essence.Terrain && CurrentWorld.Map[target.X, target.Y] != Essence.Entrance) return;
                 while (true)
                 {
+                    if(CheckEntrance(target))
+                        return;
                     if (Position.X == target.X && Position.Y == target.Y)
                     {
                         CurrentWorld.Map[Position.X, Position.Y] = Essence.Character;

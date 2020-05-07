@@ -17,6 +17,7 @@ namespace MyRPGGame
             for (var j = 0; j < height; j++)
                 Map[i, j] = Essence.Terrain;
             Characters = new List<Character>();
+            Entrances = new List<Entrance>();
             IsFighting = false;
         }
 
