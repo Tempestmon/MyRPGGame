@@ -10,6 +10,7 @@
             Capacity = 1000;
             WeaponRequirement = new WeaponRequirement(Tier.Strength, 2);
             AttackPoint = 2;
+            IsUnique = true;
         }
     }
 
